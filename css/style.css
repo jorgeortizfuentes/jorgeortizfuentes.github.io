@@ -1,0 +1,200 @@
+Headings
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.large-title {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.medium-h1-title {
+  font-size: 32px !important;
+  font-weight: 600 !important;
+}
+
+/* Body */
+body {
+  background-color: #f9f4f3;
+  font-family: "Roboto", sans-serif;
+  color: #1d1e22;
+}
+
+/* Links */
+a {
+  color: #1b314c;
+}
+a:hover, a:active {
+  color: #1b314c;
+}
+
+/* Menu */
+.navbar {
+  background-color: #f9f4f3 !important;
+  /* font color black */
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 18px;
+  /* Padding */
+  padding-top: 1.8em;
+  padding-bottom: 0.8em;
+  /* Margin buttom 2em */
+  margin-bottom: 3em;
+
+  /* Border buttom (#1d1e22, 5% transparency) */
+  border-bottom: 1px solid rgba(29, 30, 34, 0.1);
+  
+  
+
+}
+
+/* Menu */
+.navbar a {
+  color: #000000;
+  padding: 0 1em !important;
+}
+.navbar a:hover, .navbar a:active {
+  color: #1b314c;
+}
+
+/* Add space down before navbar-toggler-icon when it is open */
+.navbar-toggler {
+  margin-bottom: 1em;
+}
+
+/* Footer */
+footer {
+  background-color: #1d1e22;
+  /* Margin top */
+  margin-top: 3em;
+}
+
+/* Icons */
+footer i {
+  background-color: #ffffff;
+  color: #1b314c;
+  border-radius: 50%;
+  /* Background size */
+  width: 2.2em;
+  height: 2.2em;
+  /* Font size */
+  font-size: 1.5em;
+  text-align: center;
+  /* Allign icon in the middle and center of the background */
+  line-height: 2.5em;
+  /* Padding */
+  padding-top: 0.6em;
+  padding-bottom: 0.5em;
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+  /* Margin */
+  margin: 0.5em;
+}
+
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+  color: #1b314c;
+}
+
+
+.row {
+  padding: 4em;
+}
+
+/* Left column */
+.col-5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Left column icons */
+.big-icon{
+  font-size: 32px;
+  color: #f9f4f3;
+  background-color: #1b314c;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  /* Background size */
+  width: 2.2em;
+  height: 2.2em;
+  /* Font size */
+  font-size: 1.5em;
+  text-align: center;
+  /* Allign icon in the middle and center of the background */
+  line-height: 2.5em;
+  /* Padding */
+  padding-top: 0.6em;
+  padding-bottom: 0.5em;
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+  /* Margin */
+  margin: 0.5em;
+
+}
+
+/* Right column */
+.col-7 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Center vertically */
+  justify-content: center;
+}
+
+
+@keyframes blink {
+  50% {
+    color: transparent;
+  }
+}
+
+.blink {
+  animation: blink 1s linear infinite;
+}
+
+/* Button 1b314c color and white letter. Roboto font */
+.btn {
+  background-color: #1b314c;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 18px;
+  /* Padding */
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-right: 2em;
+  padding-left: 2em;
+  /* Margin */
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-right: 1em;
+  margin-left: 1em;
+  /* Border radius */
+  border-radius: 0.5em;
+  /* Center button */
+  
+  
+}
+
+/* Hover button 1b314c with a bit of transparence */
+.btn:hover {
+  background-color: rgba(27, 49, 76, 0.9);
+  color: #ffffff;
+}
+
+/* Custom section (custom-section) for div  */
+.custom-section {
+  background-color: #f9f4f3;
+  /* Padding */
+  /* 80% of screen */
+  width: 80%;
+}
