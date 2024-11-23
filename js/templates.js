@@ -11,7 +11,6 @@ async function loadComponent(elementId, componentPath) {
 
 // Cargar todos los componentes cuando el documento esté listo
 document.addEventListener('DOMContentLoaded', function() {
-    loadComponent('header-placeholder', 'components/header.html');
     loadComponent('nav-placeholder', 'components/nav.html');
     loadComponent('footer-placeholder', 'components/footer.html');
 });
