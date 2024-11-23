@@ -1,0 +1,11 @@
+# Mac files
+.DS_Store
+
+# Python Assistant
+__pycache__/
+*.pyc
+resume_repo.py
+resumed_repo.md
+
+# VSCode
+.vscode/

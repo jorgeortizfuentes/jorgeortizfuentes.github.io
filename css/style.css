@@ -49,13 +49,18 @@ a:hover, a:active {
 
 }
 
-/* Menu */
 .navbar a {
   color: #000000;
   padding: 0 1em !important;
 }
 .navbar a:hover, .navbar a:active {
   color: #1b314c;
+}
+
+@media (min-width: 1024px) {
+  .navbar-nav .nav-item {
+    margin: 0 2em;
+  }
 }
 
 /* Add space down before navbar-toggler-icon when it is open */
@@ -197,4 +202,13 @@ h1 {
   /* Padding */
   /* 80% of screen */
   width: 80%;
+}
+
+
+.publication-item .btn {
+  padding: 2px 6px;
+  font-size: 11px;
+  margin: 0 0 0 0;
+  line-height: 1;
+  border-radius: 3px;
 }
